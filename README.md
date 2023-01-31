@@ -44,3 +44,28 @@ While node is running, visit the locally running server at *http://localhost:808
     
 }
 
+**Endpoint PUT**
+
+<http://localhost:8080/api/updateClient/63d8c18564f38689245d047a>
+**jwt token**
+token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZDhkNzg2NzlkMjQ5NmFkN2UxMzBlMiIsImlhdCI6MTY3NTE1NTMzNCwiZXhwIjoxNjc1NDE0NTM0fQ.pLeiMO2yUC2D5EPaur2GC03LJ8WnZhuujt1IU0LyaGs
+
+**JSON body**
+ {
+        "clientName": "c",
+        "clientEmail": "abc@gmail.com",
+        "clientPhoneNumber": "12345",
+        "clientTotalBill": 20
+ }
+ 
+ 
+ **Endpoint GET**
+ 
+ **jwt token**
+token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZDhkNzg2NzlkMjQ5NmFkN2UxMzBlMiIsImlhdCI6MTY3NTE1NTMzNCwiZXhwIjoxNjc1NDE0NTM0fQ.pLeiMO2yUC2D5EPaur2GC03LJ8WnZhuujt1IU0LyaGs
+
+ <http://localhost:8080/api/top-clients>
+ 
+ 
+ 
+ 
